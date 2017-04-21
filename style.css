@@ -93,3 +93,12 @@ p, li {
 li {
 
 }
+
+blockquote {
+  font-family: "Times New Roman", Times, serif;
+  border-left: 3px solid #4eb565;
+  background-color: #f0f0f0;
+  padding: 20px;
+  font-style: italic;
+  line-height: 1.2em;
+}
