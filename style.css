@@ -2,7 +2,7 @@
 
 body {
   font-family: "Helvetica", sans-serif;
-  max-width: 900px;
+  max-width: 860px;
   margin: 0 auto;
 	font-size: 1.2em;
 	padding: 20px;
@@ -97,8 +97,9 @@ blockquote {
   padding: 20px;
   font-style: italic;
   line-height: 1.2em;
-  margin: 25px 0;
+  margin: 40px auto;
   display: block;
+  max-width: 600px;
 }
 
 @media all and (width: 550px) {
