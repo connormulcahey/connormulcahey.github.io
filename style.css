@@ -97,6 +97,8 @@ blockquote {
   padding: 20px;
   font-style: italic;
   line-height: 1.2em;
+  margin: 25px 0;
+  display: block;
 }
 
 @media all and (width: 550px) {
