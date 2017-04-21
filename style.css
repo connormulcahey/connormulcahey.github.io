@@ -98,3 +98,11 @@ blockquote {
   font-style: italic;
   line-height: 1.2em;
 }
+
+@media all and (width: 550px) {
+
+  body {
+    font-size: 0.9em;
+  }
+
+}
