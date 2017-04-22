@@ -109,4 +109,12 @@ blockquote {
     font-size: 0.8em;
   }
 
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
 }
