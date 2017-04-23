@@ -118,3 +118,103 @@ blockquote {
   }
 
 }
+
+/* FONTS */
+
+@font-face {
+  font-family: 'Computer Modern Serif';
+  src: font-url('cmunrm.eot');
+  src: font-url('cmunrm.eot?#iefix') format('embedded-opentype'),
+     font-url('cmunrm.woff') format('woff'),
+     font-url('cmunrm.ttf') format('truetype'),
+     font-url('cmunrm.svg#cmunrm') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Computer Modern Serif';
+  src: font-url('cmunbx.eot');
+  src: font-url('cmunbx.eot?#iefix') format('embedded-opentype'),
+     font-url('cmunbx.woff') format('woff'),
+     font-url('cmunbx.ttf') format('truetype'),
+     font-url('cmunbx.svg#cmunbx') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Computer Modern Serif';
+  src: font-url('cmunti.eot');
+  src: font-url('cmunti.eot?#iefix') format('embedded-opentype'),
+     font-url('cmunti.woff') format('woff'),
+     font-url('cmunti.ttf') format('truetype'),
+     font-url('cmunti.svg#cmunti') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Computer Modern Serif';
+  src: font-url('cmunbi.eot');
+  src: font-url('cmunbi.eot?#iefix') format('embedded-opentype'),
+     font-url('cmunbi.woff') format('woff'),
+     font-url('cmunbi.ttf') format('truetype'),
+     font-url('cmunbi.svg#cmunbi') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Computer Modern Sans';
+  src: font-url('cmunss.eot');
+  src: font-url('cmunss.eot?#iefix') format('embedded-opentype'),
+     font-url('cmunss.woff') format('woff'),
+     font-url('cmunss.ttf') format('truetype'),
+     font-url('cmunss.svg#cmunss') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Computer Modern Sans';
+  src: font-url('cmunsx.eot');
+  src: font-url('cmunsx.eot?#iefix') format('embedded-opentype'),
+     font-url('cmunsx.woff') format('woff'),
+     font-url('cmunsx.ttf') format('truetype'),
+     font-url('cmunsx.svg#cmunsx') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Computer Modern Sans';
+  src: font-url('cmunsi.eot');
+  src: font-url('cmunsi.eot?#iefix') format('embedded-opentype'),
+     font-url('cmunsi.woff') format('woff'),
+     font-url('cmunsi.ttf') format('truetype'),
+     font-url('cmunsi.svg#cmunsi') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Computer Modern Sans';
+  src: font-url('cmunso.eot');
+  src: font-url('cmunso.eot?#iefix') format('embedded-opentype'),
+     font-url('cmunso.woff') format('woff'),
+     font-url('cmunso.ttf') format('truetype'),
+     font-url('cmunso.svg#cmunso') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+
+
