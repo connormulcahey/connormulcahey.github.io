@@ -111,7 +111,7 @@ h1 {
 	text-align: center;
 	color: #0083cf;
   font-size: 50px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 h3, h4 {
@@ -156,7 +156,7 @@ hr {
   content: "";
   height: 3px;
   background: #4eb565;
-  margin: 20px auto 20px auto;
+  margin: 40px auto 40px auto;
   border: none;
   width: 280px;
 }
