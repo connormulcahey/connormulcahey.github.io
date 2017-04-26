@@ -183,6 +183,12 @@ h2::after {
   border: none;
 }
 
+iframe, img {
+  text-align: center;
+  margin: 40px auto;
+  display: block;
+}
+
 a {
 	color: #0083cf;
 }
