@@ -121,6 +121,10 @@ body {
 
 }
 
+.green {
+  color: #4eb565;
+}
+
 main {
   margin-top: -100px;
 }
