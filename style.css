@@ -123,6 +123,10 @@ body {
 
 .green {
   color: #4eb565;
+  font-size: 25px;
+  top: -110%;
+  display: inline-block;
+  position: relative;
 }
 
 main {
