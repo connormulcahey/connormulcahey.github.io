@@ -123,8 +123,9 @@ body {
 
 .green {
   color: #4eb565;
-  font-size: 25px;
-  top: -110%;
+  font-size: 27px;
+  top: 4px;
+  padding: 0 3px;
   display: inline-block;
   position: relative;
 }
