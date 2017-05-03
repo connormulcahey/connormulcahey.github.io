@@ -197,6 +197,13 @@ p, li {
 	line-height: 145%;
 }
 
+#prof-desk {
+  display: block;
+}
+
+#prof-mob {
+  display: none;
+}
 
 blockquote {
   font-family: 'Computer Modern Serif', sans-serif;
@@ -214,6 +221,14 @@ blockquote {
 
   body {
     font-size: 0.8em;
+  }
+
+  #prof-desk {
+    display: none;
+  }
+
+  #prof-mob {
+    display: block;
   }
 
   h1 {
