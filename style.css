@@ -237,10 +237,10 @@ p, li {
   display: none;
 }
 
-.green {
+.pipe {
   color: #4eb565;
   font-size: 27px;
-  top: 4px;
+  top: 3px;
   padding: 0 3px;
   display: inline-block;
   position: relative;
