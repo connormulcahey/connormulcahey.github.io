@@ -271,6 +271,25 @@ blockquote {
 
   #prof-mob {
     display: block;
+    text-align:center;
+  }
+
+  #prof-mob a {
+
+  }
+
+  #prof-mob a::after {
+    content: "";
+    height: 2px;
+    background: #4eb565;
+    display: block;
+    width: 50px;
+    margin: 8px auto -6px auto;
+    border: none;
+  }
+
+  #prof-mob a::last-child::after {
+    height: 0;
   }
 
   main {
@@ -280,6 +299,7 @@ blockquote {
   h1 {
     font-size: 28px;
     margin-top: 5px;
+    margin-bottom: 20px;
   }
 
   h2 {
@@ -288,6 +308,10 @@ blockquote {
 
   p {
     margin: 20px 0;
+  }
+
+  main {
+    margin-top: 0;
   }
 
 }
