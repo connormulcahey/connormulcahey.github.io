@@ -258,6 +258,10 @@ blockquote {
   max-width: 600px;
 }
 
+#blurb {
+  padding: 0 50px;
+}
+
 @media all and (max-width: 650px) {
 
   body {
@@ -312,6 +316,10 @@ blockquote {
 
   main {
     margin-top: 0;
+  }
+
+  #blurb {
+    padding: 0;
   }
 
 }
