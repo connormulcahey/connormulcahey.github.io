@@ -258,7 +258,7 @@ blockquote {
   max-width: 600px;
 }
 
-@media all and (width: 550px) {
+@media all and (max-width: 650px) {
 
   body {
     font-size: 0.8em;
