@@ -121,6 +121,10 @@ body {
 
 }
 
+main {
+  text-align: center;
+}
+
 h1 {
 	text-align: center;
 	color: #0083cf;
@@ -165,15 +169,6 @@ code {
   font-size: 1.1em;
   padding: 1px 4px;
   font-weight: bold;
-}
-
-hr {
-  content: "";
-  height: 3px;
-  background: #4eb565;
-  margin: 40px auto 40px auto;
-  border: none;
-  width: 280px;
 }
 
 h2 {
@@ -231,6 +226,25 @@ p, li {
 
 #prof-mob {
   display: none;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#prof-mob .cell {
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+}
+
+hr {
+  content: "";
+  height: 3px;
+  background: #4eb565;
+  margin: 15px auto 15px auto;
+  border: none;
+  width: 280px;
 }
 
 .pipe {
@@ -267,6 +281,10 @@ blockquote {
   }
 }
 
+td {
+  text-align: center;
+}
+
 @media all and (max-width: 650px) {
 
   body {
@@ -283,22 +301,9 @@ blockquote {
     text-align:center;
   }
 
-  #prof-mob a:hover {
-    border-bottom: 2px solid transparent;
-  }
-
-  #prof-mob a::after {
-    content: "";
-    height: 2px;
-    background: #4eb565;
-    display: block;
-    width: 50px;
-    margin: 10px auto -8px auto;
-    border: none;
-  }
-
-  #prof-mob a.last::after {
-    height: 0;
+  .pipe {
+    font-size: 23px;
+    color: transparent;
   }
 
   main {
@@ -311,8 +316,25 @@ blockquote {
     margin-bottom: 20px;
   }
 
+  .pipe {
+    color: #4eb565;
+    font-size: 20px;
+    top: 3px;
+    padding: 0 3px;
+    display: inline-block;
+    position: relative;
+  }
+
   h2 {
     font-size: 18px;
+  }
+
+  h2::after {
+    height: 2px;
+  }
+
+  hr {
+    height: 2px;
   }
 
   p {
