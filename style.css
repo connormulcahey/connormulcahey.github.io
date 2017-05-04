@@ -261,7 +261,7 @@ blockquote {
 @media all and (max-width: 650px) {
 
   body {
-    font-size: 0.8em;
+    font-size: 0.9em;
     display: block !important;;
   }
 
@@ -278,12 +278,16 @@ blockquote {
   }
 
   h1 {
-    font-size: 25px;
+    font-size: 28px;
     margin-top: 5px;
   }
 
   h2 {
     font-size: 18px;
+  }
+
+  p {
+    margin: 20px 0;
   }
 
 }
