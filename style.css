@@ -121,10 +121,6 @@ body {
 
 }
 
-main {
-  margin-top: -100px;
-}
-
 h1 {
 	text-align: center;
 	color: #0083cf;
@@ -262,6 +258,12 @@ blockquote {
   padding: 0 50px;
 }
 
+@media all and (min-height: 600px) {
+  main {
+    margin-top: -100px;
+  }
+}
+
 @media all and (max-width: 650px) {
 
   body {
@@ -312,10 +314,6 @@ blockquote {
 
   p {
     margin: 20px 0;
-  }
-
-  main {
-    margin-top: 0;
   }
 
   #blurb {
