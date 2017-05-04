@@ -274,8 +274,8 @@ blockquote {
     text-align:center;
   }
 
-  #prof-mob a {
-
+  #prof-mob a:hover {
+    border-bottom: 2px solid transparent;
   }
 
   #prof-mob a::after {
