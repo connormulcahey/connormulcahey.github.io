@@ -262,6 +262,7 @@ blockquote {
 
   body {
     font-size: 0.8em;
+    display: block !important;;
   }
 
   #prof-desk {
