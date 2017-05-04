@@ -262,6 +262,9 @@ blockquote {
   main {
     margin-top: -100px;
   }
+  h1 {
+    margin-top: 10px;
+  }
 }
 
 @media all and (max-width: 650px) {
