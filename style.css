@@ -99,7 +99,7 @@
 
 
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Computer Modern Sans", "Helvetica", sans-serif;
   max-width: 700px;
   margin: 0 auto;
 	font-size: 1.2em;
@@ -250,7 +250,8 @@ hr {
 .pipe {
   color: #4eb565;
   font-size: 27px;
-  top: 3px;
+  top: 1px;
+  font-weight: bold;
   padding: 0 3px;
   display: inline-block;
   position: relative;
