@@ -106,7 +106,6 @@ body {
 	padding: 20px;
   color: #444;
 
-
   /* v-align */
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -118,7 +117,16 @@ body {
 
   align-items: center;
 
+}
 
+body.night {
+  color: #ddd;
+  background-color: #222;
+}
+
+body.night h2 {
+  color: #ddd;
+  opacity: 1.0;
 }
 
 main {
