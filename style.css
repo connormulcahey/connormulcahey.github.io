@@ -130,7 +130,7 @@ h1 {
 	color: #0083cf;
   font-size: 50px;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 h3, h4 {
@@ -191,6 +191,7 @@ h2::after {
   width: 280px;
   margin: 20px auto 20px auto;
   border: none;
+  border-radius: 1px;
 }
 
 iframe, img {
@@ -245,6 +246,7 @@ hr {
   margin: 15px auto 15px auto;
   border: none;
   width: 280px;
+  border-radius: 1px;
 }
 
 .pipe {
