@@ -1,8 +1,10 @@
 
-#()
+$( document ).ready(function() {
 
-var hr = (new Date()).getHours();
+	var hr = (new Date()).getHours();
 
-if (hr <= 6 || hr >= 18) {
-	$('body').addClass('night');
-}
+	if (hr <= 6 || hr >= 18) {
+		$('body').addClass('night');
+	}
+
+});
