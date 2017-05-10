@@ -296,6 +296,14 @@ td {
   text-align: center;
 }
 
+#books ul {
+  list-style: none;
+}
+
+#books li {
+  margin-bottom: 10px;
+}
+
 @media all and (max-width: 650px) {
 
   body {
