@@ -1,0 +1,40 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Connor Mulcahey</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+	<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML"></script>
+	<script type="text/x-mathjax-config">
+  	MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+</head>
+<body>
+
+	<main>
+
+		<h1>Playing Atari <br> with <br>Deep Reinforcement Learning</h1>
+
+		<h2>
+			A Visual Explanation
+		</h2>
+
+		<p>With the hype around AI at an all time high I thought I'd get my feet wet by disecting the notable <a href="https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf">Deep Mind DQN paper</a>. What follows is an explanation of the paper by a novice for novices.</p>
+
+		<h3>Objective</h3>
+
+		<p>Have a <a href="https://en.wikipedia.org/wiki/Reinforcement_learning">reinforcement learning</a> agent learn a control policy to maximize future reward given nothing but an input tensor of pixels and a reward value.</p>
+
+		<h3>Input</h3>
+
+		<p>A tensor <strong>\( x_t \in \mathbb{R} ^d \)</strong> and a reward <strong>\( r_t \)</strong></p>
+
+		<p>In this case \( d = 5 \) where each pixel is a vector with 5 components, \( \{ \) <span style="color: red;">\( R \)</span>, <span style="color: green;">\( G \)</span>, <span style="color: blue;">\( B \)</span>, <strong>\( i \)</strong>, <strong>\( j \)</strong></strong> \( \} \). <strong>\( t \)</strong> </p>
+
+	</main>
+
+</body>
+</html>
+

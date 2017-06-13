@@ -96,8 +96,6 @@
   font-style: italic;
 }
 
-
-
 body {
   font-family: "Computer Modern Sans", "Helvetica", sans-serif;
   max-width: 700px;
@@ -106,7 +104,9 @@ body {
 	padding: 20px;
   color: #444;
 
-  /* v-align */
+}
+
+body#home {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -116,7 +116,6 @@ body {
   -webkit-box-align: center;
 
   align-items: center;
-
 }
 
 body.night {
@@ -129,7 +128,7 @@ body.night h2 {
   opacity: 1.0;
 }
 
-main {
+#home main {
   text-align: center;
   margin: 0 auto;
 }
@@ -222,7 +221,7 @@ a:hover {
 }
 
 p {
-  margin: 50px 0;
+  margin: 20px 0;
 }
 
 p, li {
