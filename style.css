@@ -257,6 +257,10 @@ hr {
   border-radius: 1px;
 }
 
+#prof-mob hr {
+  width: 100px;
+}
+
 .pipe {
   color: #4eb565;
   font-size: 27px;
