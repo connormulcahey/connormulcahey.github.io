@@ -97,7 +97,7 @@
 }
 
 body {
-  font-family: "Source Sans Pro", "Computer Modern Sans", "Helvetica", sans-serif;
+  font-family: "Computer Modern Sans", "Helvetica", sans-serif;
   max-width: 700px;
   margin: 0 auto;
 	font-size: 1.2em;
@@ -139,7 +139,7 @@ h1 {
   font-size: 50px;
   margin-top: 0;
   margin-bottom: 35px;
-  font-family: 'Source-Sans-Pro';
+  font-family:"Computer Modern Sans", "Helvetica", sans-serif;
 }
 
 h3, h4 {
