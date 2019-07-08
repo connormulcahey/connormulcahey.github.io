@@ -1,103 +1,6 @@
 
-
-/* FONTS */
-
-@font-face {
-  font-family: 'Computer Modern Serif';
-  src: url('fonts/cmunrm.eot');
-  src: url('fonts/cmunrm.eot?#iefix') format('embedded-opentype'),
-     url('fonts/cmunrm.woff') format('woff'),
-     url('fonts/cmunrm.ttf') format('truetype'),
-     url('fonts/cmunrm.svg#cmunrm') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'Computer Modern Serif';
-  src: url('fonts/cmunbx.eot');
-  src: url('fonts/cmunbx.eot?#iefix') format('embedded-opentype'),
-     url('fonts/cmunbx.woff') format('woff'),
-     url('fonts/cmunbx.ttf') format('truetype'),
-     url('fonts/cmunbx.svg#cmunbx') format('svg');
-  font-weight: bold;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'Computer Modern Serif';
-  src: url('fonts/cmunti.eot');
-  src: url('fonts/cmunti.eot?#iefix') format('embedded-opentype'),
-     url('fonts/cmunti.woff') format('woff'),
-     url('fonts/cmunti.ttf') format('truetype'),
-     url('fonts/cmunti.svg#cmunti') format('svg');
-  font-weight: normal;
-  font-style: italic;
-}
-
-
-@font-face {
-  font-family: 'Computer Modern Serif';
-  src: url('fonts/cmunbi.eot');
-  src: url('fonts/cmunbi.eot?#iefix') format('embedded-opentype'),
-     url('fonts/cmunbi.woff') format('woff'),
-     url('fonts/cmunbi.ttf') format('truetype'),
-     url('fonts/cmunbi.svg#cmunbi') format('svg');
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Computer Modern Sans';
-  src: url('fonts/cmunss.eot');
-  src: url('fonts/cmunss.eot?#iefix') format('embedded-opentype'),
-     url('fonts/cmunss.woff') format('woff'),
-     url('fonts/cmunss.ttf') format('truetype'),
-     url('fonts/cmunss.svg#cmunss') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'Computer Modern Sans';
-  src: url('fonts/cmunsx.eot');
-  src: url('fonts/cmunsx.eot?#iefix') format('embedded-opentype'),
-     url('fonts/cmunsx.woff') format('woff'),
-     url('fonts/cmunsx.ttf') format('truetype'),
-     url('fonts/cmunsx.svg#cmunsx') format('svg');
-  font-weight: bold;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'Computer Modern Sans';
-  src: url('fonts/cmunsi.eot');
-  src: url('fonts/cmunsi.eot?#iefix') format('embedded-opentype'),
-     url('fonts/cmunsi.woff') format('woff'),
-     url('fonts/cmunsi.ttf') format('truetype'),
-     url('fonts/cmunsi.svg#cmunsi') format('svg');
-  font-weight: normal;
-  font-style: italic;
-}
-
-
-@font-face {
-  font-family: 'Computer Modern Sans';
-  src: url('fonts/cmunso.eot');
-  src: url('fonts/cmunso.eot?#iefix') format('embedded-opentype'),
-     url('fonts/cmunso.woff') format('woff'),
-     url('fonts/cmunso.ttf') format('truetype'),
-     url('fonts/cmunso.svg#cmunso') format('svg');
-  font-weight: bold;
-  font-style: italic;
-}
-
 body {
-  font-family: "Computer Modern Sans", "Helvetica", sans-serif;
+  font-family: "Helvetica", sans-serif;
   max-width: 700px;
   margin: 0 auto;
 	font-size: 1.2em;
@@ -135,7 +38,7 @@ body.night h2 {
 
 h1 {
 	text-align: center;
-	color: #0083cf;
+	color: #569cd6;
   font-size: 50px;
   margin-top: 0;
   margin-bottom: 35px;
@@ -158,7 +61,7 @@ strong, .important, .important a, strong a {
 
 pre {
   background-color: #eee;
-  color: #0083cf;
+  color: #569cd6;
   padding: 20px;
   border-radius: 5px;
   border: 1px solid #bbb;
@@ -173,7 +76,7 @@ img {
 
 code {
   background-color: #eee;
-  color: #0083cf;
+  color: #569cd6;
   border-radius: 3px;
   font-size: 1.1em;
   padding: 1px 4px;
@@ -195,7 +98,7 @@ h2 {
 h2::after {
   content: "";
   height: 3px;
-  background: #4eb565;
+  background: #a6e22e;
   display: block;
   width: 280px;
   margin: 20px auto 20px auto;
@@ -210,13 +113,13 @@ iframe, img {
 }
 
 a {
-	color: #0083cf;
+	color: #569cd6;
   text-decoration: none;
   border-bottom: 2px solid transparent;
 }
 
 a:hover {
-  border-bottom: 2px solid #0083cf;
+  border-bottom: 2px solid #569cd6;
   transition: border 0.3s;
   /*text-decoration: underline;*/
 }
@@ -251,7 +154,7 @@ p, li {
 hr {
   content: "";
   height: 3px;
-  background: #4eb565;
+  background: #a6e22e;
   margin: 15px auto 15px auto;
   border: none;
   width: 280px;
@@ -263,7 +166,7 @@ hr {
 }
 
 .pipe {
-  color: #4eb565;
+  color: #a6e22e;
   font-size: 27px;
   top: 1px;
   font-weight: bold;
@@ -274,7 +177,7 @@ hr {
 
 blockquote {
   font-family: 'Computer Modern Serif', sans-serif;
-  border-left: 3px solid #4eb565;
+  border-left: 3px solid #a6e22e;
   background-color: #f0f0f0;
   padding: 20px 35px;
   font-style: italic;
@@ -338,7 +241,7 @@ td {
   }
 
   .pipe {
-    color: #4eb565;
+    color: #a6e22e;
     font-size: 20px;
     top: 3px;
     padding: 0 3px;
